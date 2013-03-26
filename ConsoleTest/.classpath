@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ua.ieeta.dicom"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ua.ieeta.context"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.md4j.domain"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ua.ieeta.dependencies"/>
+	<classpathentry kind="lib" path="/ua.ieeta.dependencies/libs/logs/logback-classic-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/ua.ieeta.dependencies/libs/logs/logback-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/ua.ieeta.dependencies/libs/logs/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

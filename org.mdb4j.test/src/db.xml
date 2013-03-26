@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<db name="test">
+		<connection 
+			driver="org.postgresql.Driver"
+			url="jdbc:postgresql://localhost:5432/test"
+			user="postgre"
+			password="micael22103"/>
+		
+		<security adapter="org.mdb4j.security.LDAPSecurityAdapter"/>
+			
+		<modules>
+			<module package="test.domain"/>
+		</modules>
+	</db>
+</config>
